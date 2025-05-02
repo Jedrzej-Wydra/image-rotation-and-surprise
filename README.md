@@ -4,7 +4,7 @@ author: Jędrzej Wydra
 This project started as a challenge for my students — and for myself. I wanted to show them two things: first, that teaching a computer to do something simple often takes surprising effort; and second, that even a basic linear model isn't just a math exercise — it can do real work, like rotating an image.
 
 Instead of relying on empirical data, I generated synthetic training data analytically. I considered a unit circle and defined a finite, ordered sequence of points 
-$(a_1, a_2, ..., a_n)$ evenly spaced along a circular arc corresponding to the desired rotation angle. For each  $i \in \{1,…,n−1\}$, the training set consisted of input-output pairs $(a_i, a_{i+1})$, where $a_i$ was treated as the input and $a_{i+1}$ as the target output. This construction allowed the model to learn the transformation corresponding to rotation in an elegant, fully controlled way.
+$(a_1, a_2, ..., a_n)$ evenly spaced along a circular arc corresponding to the desired rotation angle. For each  $i \in \lbrace 1, \dots, n-1 \rbrace$, the training set consisted of input-output pairs $(a_i, a_{i+1})$, where $a_i$ was treated as the input and $a_{i+1}$ as the target output. This construction allowed the model to learn the transformation corresponding to rotation in an elegant, fully controlled way.
 
 The idea worked — the model learned to rotate. But not without surprises. In an earlier attempt, I tried to use two intersecting straight lines to define corresponding point pairs. The result? Instead of learning rotation, the model decided to squash the entire plane into a line. Linear, yes — but not quite what I had in mind.
 
