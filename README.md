@@ -12,5 +12,4 @@ This little experiment turned out to be a fun detour into the philosophy of mode
 
 ## Side Note
 I ran the project using the facilities of the faculty I graduated from — my very first one: Faculty of Law and Administration. During my second degree (on Faculty of Mathematics and Computer Science), a professor once asked me how I was coping in such a completely different world. I said I was doing fine, but whenever I visited my first faculty, I felt something different — like a deeper heartbeat, a stronger emotional pull. He smiled and said:
-"Jędrzej, studies are like girlfriends — you never forget the first one."
-That was Prof. Maciej Kandulski — a truly wonderful person.
+"Jędrzej, studies are like girlfriends — you never forget the first one". That was Prof. Maciej Kandulski — a truly wonderful person.
