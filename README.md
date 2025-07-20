@@ -2,7 +2,7 @@
 author: Jędrzej Wydra
 
 ## Short summary (1 sentence for a DS recruiter):
-Demonstrated that a simple linear regression model can learn controlled 2D geometric transformations—specifically image rotation—using analytically generated training data from unit circle mappings, highlighting the power of linear models in structured tasks.
+Demonstrated that a simple linear regression model can learn controlled 2D geometric transformations (specifically image rotation) using analytically generated training data from unit circle mappings, highlighting the power of linear models in structured tasks.
 
 ## Technical summary (2–3 sentences, concise):
 Synthetic datasets were generated from ordered points on a unit circle arc to represent rotation as sequential input–output pairs. A standard linear regression model (scikit-learn) successfully learned local rotation mappings, while a naive approach using intersecting lines collapsed the space to a degenerate projection. The experiment leveraged NumPy and matplotlib for data generation and visualization, with model evaluation focused on transformation fidelity rather than standard metrics.
